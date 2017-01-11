@@ -5,6 +5,8 @@ const Button = require('./Button');
 
 const StyleConstants = require('../constants/Style');
 
+const { buttonTypes } = require('../constants/App');
+
 const ButtonGroup = React.createClass({
   propTypes: {
     buttons: React.PropTypes.arrayOf(React.PropTypes.shape({
@@ -14,13 +16,7 @@ const ButtonGroup = React.createClass({
       text: React.PropTypes.string
     }).isRequired),
     primaryColor: React.PropTypes.string,
-    type: React.PropTypes.oneOf([
-      'base',
-      'disabled',
-      'neutral',
-      'primary',
-      'primaryOutline'
-    ])
+    type: React.PropTypes.oneOf(buttonTypes)
   },
 
   getDefaultProps () {
