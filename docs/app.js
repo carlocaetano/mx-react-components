@@ -23,6 +23,7 @@ const Loader = require('components/LoaderDocs');
 const Menu = require('components/MenuDocs');
 const Modal = require('components/ModalDocs');
 const PageIndicator = require('components/PageIndicatorDocs');
+const PaginationButtons = require('components/PaginationButtons');
 const ProgressBar = require('components/ProgressBarDocs');
 const RadioButton = require('components/RadioButtonDocs');
 const RajaIcon = require('components/RajaIconDocs');
@@ -82,6 +83,7 @@ ReactDOM.render((
         <Route component={Menu} path='menu' />
         <Route component={Modal} path='modal' />
         <Route component={PageIndicator} path='page-indicator' />
+        <Route component={PaginationButtons} path='pagination-buttons' />
         <Route component={ProgressBar} path='progress-bar' />
         <Route component={RadioButton} path='radio-button' />
         <Route component={RajaIcon} path='raja-icon' />

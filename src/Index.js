@@ -19,6 +19,7 @@ module.exports = {
   Menu: require('./components/Menu'),
   Modal: require('./components/Modal'),
   PageIndicator: require('./components/PageIndicator'),
+  PaginationButtons: require('./components/PaginationButtons'),
   ProgressBar: require('./components/ProgressBar'),
   RadioButton: require('./components/RadioButton'),
   RajaIcon: require('./components/RajaIcon'),
